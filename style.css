@@ -1,0 +1,57 @@
+*,*::after,*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.label{
+  background-color: #0c5b83;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.label-row{
+  margin: 5px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.card-header{
+  background-color: #0c5b83 !important;
+  color: #ffffff !important;
+}
+
+.card-header img{
+  background-color: #ffffff;
+  color: #ffffff !important;
+  border-radius: 3px;
+}
+
+.card-title{
+  display: flex;
+  align-items: center;
+}
+.skill-lg{
+  padding: 20px;
+  border: none !important;
+  box-shadow: 5px 50px 100px 40px #eaeaea !important;
+  border: 20px !important;
+  /* border-bottom: none !important; */
+}
+.skill-list{
+  border: none !important;
+}
+.download-btn{
+  font-size: 14px;
+  font-weight: 600;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  background-color: #ffffff;
+  padding: 5px 5px;
+  border-radius: 5px;
+  z-index: 99;
+  text-decoration: none;
+}
